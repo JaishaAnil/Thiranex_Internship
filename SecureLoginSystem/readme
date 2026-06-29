@@ -1,1 +1,71 @@
+# Secure Login System
 
+## Overview
+This project is a Secure Login System developed using Flask and SQLite. It allows users to register, log in securely using hashed passwords, access a protected dashboard, and log out safely. The application demonstrates secure authentication practices and session management.
+
+## Features
+- User Registration
+- Secure Login Authentication
+- Password Hashing using Bcrypt
+- Session Management
+- Logout Functionality
+- SQLite Database
+- Input Validation
+- SQL Injection Protection using SQLAlchemy ORM
+
+## Technologies Used
+- Python
+- Flask
+- Flask-Bcrypt
+- Flask-SQLAlchemy
+- SQLite
+- HTML
+- CSS
+
+## Project Structure
+
+SecureLoginSystem/
+│── app.py
+│── requirements.txt
+│── static/
+│ └── style.css
+│── templates/
+│ ├── home.html
+│ ├── register.html
+│ ├── login.html
+│ └── dashboard.html
+│── instance/
+│ └── users.db
+
+## Installation
+
+1. Clone the repository
+2. Create a virtual environment
+3. Install dependencies
+
+```
+pip install -r requirements.txt
+```
+
+4. Run the application
+
+```
+python app.py
+```
+
+5. Open your browser and visit
+
+```
+http://127.0.0.1:5000
+```
+
+## Future Improvements
+
+- Two-Factor Authentication (2FA)
+- Email Verification
+- Password Reset
+- Stronger Password Policies
+
+## Author
+
+Jaisha Anil
